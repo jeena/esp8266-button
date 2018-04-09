@@ -5,15 +5,22 @@ be used for different purpouses. I myself use it to toggle my flat in
 a state where I'm sleeping in the evening and that I'm awake in the
 morning an Home Assistant so it can automate different things accordingly.
 
-## Getting the code
+It consumes a minimal amount of energy and can be run on batteries for a
+really long time, I assume at least months if not years. It does it by
+booting up just to connect to wifi and sending this one MQTT command,
+after that it is set to go into deep sleep imediatelly.
 
-    git clone https://github.com/jeena/esp8266-button.git
-
-## Hardware setup
+## Hardware
 
 ![Hardware setup](https://github.com/jeena/esp8266-button/raw/master/espbutton-schema.png)
 
-## Software setup
+## Software
+
+### Getting the code
+
+    git clone https://github.com/jeena/esp8266-button.git
+
+### Setup
 
 Open the espbutton/espbutton.ino file in the Arduino IDE.
 
@@ -33,16 +40,18 @@ may also change the topic if it makes sense for you.
 
 ## Flashing
 
-1. Under File -> Preferences set as Additional Boards Manager URLs:
+1. Open the sketch found under espbutton/espbutton.ino in the Arduino IDE
+2. Under File -> Preferences set as Additional Boards Manager URLs:
    http://arduino.esp8266.com/versions/2.3.0/package_esp8266com_index.json
-2. Chose under Tools -> Board the "Node MCU 1.0 (ESP12-E Module)"
-3. Under Sketch -> Include Library -> Manage Libraries -> Search for
-   "PubsubClient" and install the one "by Nick O'Leary" 
-4. Press the Upload button
+3. Chose under Tools -> Board the "Node MCU 1.0 (ESP12-E Module)"
+4. Under Sketch -> Include Library -> Manage Libraries -> Search for
+   "PubsubClient" and install the one "by Nick O'Leary"
+5. Connect GPIO0 to GND with help of the Prog. switch
+6. Press the Upload button
 
 ## License
 
-This file is part of esp8266-temperature.
+This file is part of esp8266-button.
 
 Copyright 2017 Jeena
 
