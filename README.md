@@ -53,7 +53,7 @@ may also change the topic if it makes sense for you.
 
 This file is part of esp8266-button.
 
-Copyright 2017 Jeena
+Copyright 2018 Jeena
 
 esp8266-button is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
