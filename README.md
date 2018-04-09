@@ -1,9 +1,12 @@
 # esp8266-button
 
-Software which runs on a esp8266 and publishes a MQTT toppic which can
-be used for different purpouses. I myself use it to toggle my flat in
-a state where I'm sleeping in the evening and that I'm awake in the
-morning an Home Assistant so it can automate different things accordingly.
+Software which runs on an ESP8266 and publishes an MQTT topic which can
+be used for different purposes of automation.
+
+I myself use it to toggle a state in [Home Assistant](https://www.home-assistant.io/),
+which automates my flat, so it understands that I'm either going to sleep in the
+evening, or just woke up in the morning. It then can automate the appropriate
+things accordingly.
 
 It consumes a minimal amount of energy and can be run on batteries for a
 really long time, I assume at least months if not years. It does it by
