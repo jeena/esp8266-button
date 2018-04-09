@@ -9,7 +9,11 @@ morning an Home Assistant so it can automate different things accordingly.
 
     git clone https://github.com/jeena/esp8266-button.git
 
-## Setup
+## Hardware setup
+
+![Hardware setup](https://github.com/jeena/esp8266-button/raw/master/espbutton-schema.png)
+
+## Software setup
 
 Open the espbutton/espbutton.ino file in the Arduino IDE.
 
