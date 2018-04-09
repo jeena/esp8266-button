@@ -40,10 +40,6 @@ may also change the topic if it makes sense for you.
    "PubsubClient" and install the one "by Nick O'Leary" 
 4. Press the Upload button
 
-## Hardware Setup
-
-t.b.d.
-
 ## License
 
 This file is part of esp8266-temperature.
