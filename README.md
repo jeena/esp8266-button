@@ -15,7 +15,9 @@ after that it is set to go into deep sleep imediatelly.
 
 ## Hardware
 
-![Hardware setup](https://github.com/jeena/esp8266-button/raw/master/espbutton-schema.png)
+![Hardware schema](https://github.com/jeena/esp8266-button/raw/master/espbutton-schema.png)
+
+![Hardware photo](https://github.com/jeena/esp8266-button/raw/master/espbutton-photo.jpg)
 
 ## Software
 
