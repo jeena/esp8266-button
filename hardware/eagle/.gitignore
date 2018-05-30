@@ -1,0 +1,7 @@
+# Ignore everything
+*
+# Except the following:
+!.gitignore
+!esp8266_button.brd
+!esp8266_button.sch
+!README.md
