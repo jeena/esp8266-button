@@ -14,3 +14,4 @@ The PCB schematics and layout of the ESP8266-button made with [KiCad](http://kic
 * Tactile on/off switch (6x6mm)
 * 3-pin male angled header
 * 2-pin male or female straight header
+* Pin jumper (2.54mm pitch)
