@@ -1,3 +1,5 @@
+⚠️ This repository has moved to https://git.jeena.net/jeena/esp8266-button
+
 # esp8266-button
 
 Software which runs on an ESP8266 and publishes an MQTT topic which can
