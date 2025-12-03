@@ -1,0 +1,11 @@
+# Ignore everything
+*
+# Except the following:
+!.gitignore
+!esp8266-button.kicad_pcb
+!esp8266-button.net
+!esp8266-button-cache.lib
+!esp8266-button.sch
+!esp8266-button.pro
+!README.md
+!*.png
